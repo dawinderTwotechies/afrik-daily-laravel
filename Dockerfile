@@ -20,8 +20,14 @@ RUN curl -fsSL https://unofficial-builds.nodejs.org/download/release/v20.19.0/no
 # Copy package files first (to leverage Docker cache)
 COPY package*.json ./
 
-# Install frontend dependencies and build assets
-RUN npm ci && npm run build
+# Install frontend dependencies
+RUN npm ci
+
+# Copy the rest of the application before running build
+COPY . .
+
+# Run build from the correct directory
+RUN npm run build --prefix /var/www/html
 
 # Copy Laravel app files
 COPY . .
