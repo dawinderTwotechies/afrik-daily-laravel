@@ -23,10 +23,10 @@
                     class="bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-3 rounded-lg shadow-lg transition">
                     Invest Now
                 </button>
-                <button
+                <a href="/all-properties"
                     class="bg-grey-light text-gray-800 hover:bg-grey font-semibold px-6 py-3 rounded-lg shadow-lg transition">
                     Explore Properties
-                </button>
+                </a>
             </div>
         </div>
     </section>
@@ -48,9 +48,9 @@
                 <p class="text-gray-500 text-sm">Dubai, UAE</p>
                 <p class="text-gray-500 text-sm mt-1">Projected Return: 12%</p>
                 <p class="font-semibold mt-3">$100 per share</p>
-                <button class="mt-4 w-full bg-green-100 text-green-800 py-2 rounded-lg hover:bg-green-200 transition">
+                <a href="/property-details"  class="inline-block text-center mt-4 w-full bg-green-100 text-green-800 py-2 rounded-lg hover:bg-green-200 transition">
                     View Details
-                </button>
+                </a>
                 </div>
             </div>
 
@@ -62,9 +62,9 @@
                 <p class="text-gray-500 text-sm">New York, USA</p>
                 <p class="text-gray-500 text-sm mt-1">Projected Return: 9%</p>
                 <p class="font-semibold mt-3">$150 per share</p>
-                <button class="mt-4 w-full bg-green-100 text-green-800 py-2 rounded-lg hover:bg-green-200 transition">
+                <a href="/property-details"  class="inline-block text-center mt-4 w-full bg-green-100 text-green-800 py-2 rounded-lg hover:bg-green-200 transition">
                     View Details
-                </button>
+                </a>
                 </div>
             </div>
 
@@ -76,17 +76,17 @@
                 <p class="text-gray-500 text-sm">London, UK</p>
                 <p class="text-gray-500 text-sm mt-1">Projected Return: 8.5%</p>
                 <p class="font-semibold mt-3">$120 per share</p>
-                <button class="mt-4 w-full bg-green-100 text-green-800 py-2 rounded-lg hover:bg-green-200 transition">
+                <a href="/property-details"  class="inline-block text-center mt-4 w-full bg-green-100 text-green-800 py-2 rounded-lg hover:bg-green-200 transition">
                     View Details
-                </button>
+                </a>
                 </div>
             </div>
             </div>
 
             <div class="mt-10">
-            <button class="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-xl  transition">
+            <a href="/all-properties" class="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-xl  transition">
                 Explore More Properties
-            </button>
+            </a>
             </div>
         </div>
     </section>

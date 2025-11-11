@@ -8,6 +8,14 @@ Route::get('/', function () {
 
    // return view('welcome');
 });
+Route::get('/all-properties', function () {
+    return view('public.properties.properties');
+   // return view('welcome');
+});
+Route::get('/property-details', function () {
+    return view('public.property.property');
+   // return view('welcome');
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');
